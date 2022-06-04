@@ -20,9 +20,9 @@
           data = dia + '/' + mes + '/' + ano;
 
           //AQUI altera o texto ANTES do nome da cidade
-          textoAntesCidade = 'Você e algumas pessoas próximo a ';
+          textoAntesCidade = 'Você e algumas pessoas próximo a SÂO LOURENÇO';
           //AQUI altera o texto DEPOIS do nome da cidade
-          textoDepoisCidade = ' foram selecionadas para ver este vídeo até o dia ';
+          textoDepoisCidade = ' foram selecionadas para ver este vídeo até o dia 04/06/2022';
 
           mostrarData = true; //SE não quiser que a data apareça é só mudar o valor 'true' para 'false' e vice-versa para mostrar novamente 
           
@@ -37,14 +37,14 @@
       padding: 1rem;
       width: 100%;
       /* AQUI altera a cor de fundo da caixa */
-      background-color: #F33E99;
+      background-color: #FF0000;
       /* AQUI altera a cor da letra */
       color: #FFFFFF;
       display: inline-table;
       /* AQUI altera o tamanho da letra */
       font-size: 15px;
       /* AQUI altera a altura da caixa */
-      height: 13px;
+      height: 17px;
       z-index: 1;
       position: inherit;
       top: 0;
@@ -60,27 +60,7 @@
     
     
     
-    let prefix = ["https://protocolo-antibarriga.online/"];
 
-function getParams() {
-    let t = "",
-        e = window.top.location.href,
-        r = new URL(e);
-    if (null != r) {
-        let a = r.searchParams.get("utm_source"),
-            n = r.searchParams.get("utm_medium"),
-            o = r.searchParams.get("utm_campaign"),
-            m = r.searchParams.get("utm_term"),
-            c = r.searchParams.get("utm_content"); - 1 !== e.indexOf("?") && (t = `&sck=${a}|${n}|${o}|${m}|${c}`), console.log(t)
-    }
-    return t
-}! function() {
-    var t = new URLSearchParams(window.location.search);
-    t.toString() && document.querySelectorAll("a").forEach(function(e) {
-        for (let r = 0; r < prefix.length; r++) - 1 !== e.href.indexOf(prefix[r]) && (-1 === e.href.indexOf("?") ? e.href += "?" + t.toString() + getParams() : e.href += "&" + t.toString() + getParams())
-    })
-}(); </script>
-  
   
   
   
